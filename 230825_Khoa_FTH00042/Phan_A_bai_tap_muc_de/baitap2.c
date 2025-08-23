@@ -1,4 +1,4 @@
-// Nhập vào 2 số nguyên, tı́nh và in ra tổng, hiệu, tı́ch, thương.
+// Đề bài: Nhập vào 2 số nguyên, tı́nh và in ra tổng, hiệu, tı́ch, thương.
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa

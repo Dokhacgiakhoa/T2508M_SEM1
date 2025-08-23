@@ -1,4 +1,4 @@
-// Nhập một số nguyên, kiểm tra số đó có dương hay âm.
+// Đề bài: Nhập một số nguyên, kiểm tra số đó có dương hay âm.
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa

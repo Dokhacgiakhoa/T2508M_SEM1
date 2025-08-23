@@ -1,4 +1,4 @@
-// Nhập vào so0nguyên từ 1–12, in ra tên tháng tương ứng.
+// Đề bài: Nhập vào so0nguyên từ 1–12, in ra tên tháng tương ứng.
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa
@@ -55,7 +55,7 @@ int main() {
             // Trường hợp này sẽ không xảy ra do đã kiểm tra đầu vào trước đó
             printf("Lỗi: Giá trị không hợp lệ.\n");
     }
-    // Nhập ngày tháng năm sinh, in ra cung hoàng đạo tương ứng.
+// Đề bài: Nhập ngày tháng năm sinh, in ra cung hoàng đạo tương ứng.
     int day, year;
     printf("Nhập vào ngày sinh (1-31): ");
     while ((scanf("%d", &day) != 1) || (day < 1) || (day > 31)) { // Kiểm tra đầu vào nếu không phải là số nguyên hoặc không trong khoảng từ 1 đến 31

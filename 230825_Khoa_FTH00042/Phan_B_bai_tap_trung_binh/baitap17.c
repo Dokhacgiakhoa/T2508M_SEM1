@@ -1,4 +1,4 @@
-// Nhập vào ký tự, kiểm tra có phải nguyên âm (a, e, i, o, u) hay phụ âm.
+// Đề bài: Nhập vào ký tự, kiểm tra có phải nguyên âm (a, e, i, o, u) hay phụ âm.
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa

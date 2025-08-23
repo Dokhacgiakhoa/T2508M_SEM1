@@ -1,4 +1,4 @@
-// Nhập vào bán kı́nh hı̀nh tròn, tı́nh và in ra chu vi và diện tı́ch (la0y π = 3.14)
+// Đề bài: Nhập vào bán kı́nh hı̀nh tròn, tı́nh và in ra chu vi và diện tı́ch (la0y π = 3.14)
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa

@@ -1,4 +1,4 @@
-// Nhập vào một số nguyên và in ra bı̀nh phương của nó.
+// Đề bài: Nhập vào một số nguyên và in ra bı̀nh phương của nó.
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa

@@ -1,4 +1,4 @@
-/* Nhập vào chiều dài và chiều rộng, tı́nh diện tı́ch hı̀nh chữ nhật. 
+/* Đề bài: Nhập vào chiều dài và chiều rộng, tı́nh diện tı́ch hı̀nh chữ nhật. 
 Nếu diện tı́ch > 100 thı̀ in ra “Hı̀nh lớn”, ngược lại in ra “Hı̀nh nhỏ”. */
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows

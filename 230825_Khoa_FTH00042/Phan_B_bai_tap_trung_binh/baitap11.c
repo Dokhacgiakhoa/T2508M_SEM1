@@ -1,4 +1,5 @@
-// Nhập vào điểm số (0–10), in ra phân loại: Giỏi (≥8), Khá(6.5–7.9), Trung bı̀nh (5–6.4), Yếu (<5).
+/* Đề bài: Nhập vào điểm số (0–10), 
+in ra phân loại: Giỏi (≥8), Khá (6.5–7.9), Trung bı̀nh (5–6.4), Yếu (<5). */
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa

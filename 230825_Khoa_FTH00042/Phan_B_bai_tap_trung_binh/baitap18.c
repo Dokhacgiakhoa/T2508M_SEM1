@@ -1,4 +1,4 @@
-// Nhập số nguyên từ 1–7, in ra thứ trong tua_n (dùng switch-case).
+// Đề bài: Nhập số nguyên từ 1–7, in ra thứ trong tua_n (dùng switch-case).
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa
@@ -40,7 +40,7 @@ int main() {
             printf("Giá trị bạn nhập vào không hợp lệ.\n");
             break;
     }
-    // Nhập ngày tháng năm, dùng switch-case để in ra thứ trong tuần.
+// Đề bài: Nhập ngày tháng năm, dùng switch-case để in ra thứ trong tuần.
     int day2, month, year;
     printf("Nhập vào ngày (1-31): ");
     while ((scanf("%d", &day2) != 1) || (day2 < 1) || (day2 > 31)) { // Kiểm tra đầu vào nếu không phải là số nguyên hoặc không trong khoảng từ 1 đến 31
@@ -57,7 +57,7 @@ int main() {
         printf("Giá trị bạn nhập vào không hợp lệ. Vui lòng thử lại: ");
         while (getchar() != '\n'); // Xoá bỏ đầu vào không hợp lệ khỏi bộ đệm
     }
-    // Tính toán ngày trong tuần sử dụng công thức Zeller
+// Tính toán ngày trong tuần sử dụng công thức Zeller
     if (month < 3) {
         month += 12;
         year -= 1;

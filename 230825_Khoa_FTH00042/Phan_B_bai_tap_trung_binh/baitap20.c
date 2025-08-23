@@ -1,4 +1,4 @@
-// Nhập vào số nguyên từ 1–4, in ra mùa trong năm.
+// Đề bài: Nhập vào số nguyên từ 1–4, in ra mùa trong năm.
 #include <stdio.h> // Thư viện chuẩn để sử dụng các hàm nhập xuất
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa
