@@ -5,7 +5,7 @@ Sau đó mỗi giây in ra giờ kế tiếp (giờ:phút:giây + 1 giây)
 #ifdef _WIN32 // Kiểm tra nếu hệ điều hành là Windows
 #include <windows.h> // Thư viện Windows để sử dụng các hàm thiết lập mã hóa
 #endif // Kết thúc kiểm tra hệ điều hành
-#include <unistd.h> // Thư viện unistd.h để sử dụng hàm sleep() trên hệ điều hành Unix/Linux
+// #include <unistd.h> // Thư viện unistd.h để sử dụng hàm sleep() trên hệ điều hành Unix/Linux
 #include <time.h> // Thư viện time.h để sử dụng các hàm liên quan đến thời gian
 
 int main() { // Hàm chính của chương trình
