@@ -1,4 +1,7 @@
 #include<stdio.h>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 
 // Việc cần làm:
 // Viết hàm tính tổng
@@ -30,7 +33,7 @@ int multiple(int a, int b){
     return result;
 }
 // Định nghĩa phép chia 2 số.
-double div(int a, int b){
+double chia(double a, double b){
     double result;
     if (b!=0)
     {
@@ -44,17 +47,26 @@ double div(int a, int b){
     return result;
     
 }
-int main()
-{
+int main() {
+#ifdef _WIN32
+    SetConsoleOutputCP (CP_UTF8);
+    SetConsoleCP (CP_UTF8);
+#endif
+    
     int  choice =0;
     int a;
     int b;
     int result =0;
     while (1)
     { 
-        printf("Please enter your choice (1-9) \n");
+        printf("1. Tính tổng 2 số.\n");
+        printf("2. Tính hiệu 2 số.\n");
+        printf("3. Tính tích 2 số.\n");
+        printf("4. Tính thương 2 số.\n");
+        printf("9. Thoát chương trình.\n");
+        printf("Nhập lựa chọn của bạn (1-9)\n");
         scanf("%d",&choice);
-        printf("Enter a and b \n");
+        printf("Nhập 2 số a và b \n");
         scanf("%d %d",&a,&b);
         switch (choice)
         {
@@ -79,7 +91,7 @@ int main()
         case 4:
             printf("You chose option 4 Divide 2 numbers \n");
             // Gọi hàm chia 2 số
-            double divResult = div(a,b);
+            double divResult = chia(a,b);
             printf("Division = %f\n", divResult);
             break;
         case 9:
