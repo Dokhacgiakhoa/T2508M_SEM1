@@ -1,4 +1,4 @@
-// Nhập vào n, in ra các số lẻ nhỏ hơn n.
+// Nhập vào n, in ra tổng các số chẵn từ 1 đến n.
 #include <stdio.h>
 #ifdef _WIN32
 #include <windows.h>
@@ -12,12 +12,14 @@ int main() {
     int n;
     printf("Nhập vào số nguyên n (n > 0): \n");
     while (scanf("%d", &n) != 1 || n <= 0) {
-        printf("Giá trị bạn nhập không hợp lệ. vui lòng nhập lại: \n");
+        printf("Giá trị bạn nhập vào không hợp lệ. Vui lòng nhập lại:\n");
         while (getchar() != '\n');
     }
-    printf("Các số lẻ nhỏ hơn %d là: ", n);
-    for (int i = 1; i < n; i += 2) {
-        printf("%d ", i);
+    printf("Tổng các số chẵn từ 1 đến %d là: ", n);
+    int sum = 0;
+    for (int i = 2; i <= n; i += 2) {
+        sum += i;
     }
+    printf("%d\n", sum);
     return 0;
 }
