@@ -6,11 +6,19 @@
 
 int main() {
 #ifdef _WIN32
-    getconsolseCPoutput (CP_UTF8);
-    getconsolseCP (CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 #endif
     int n;
-    printf("Nhập vào số nguyên n: \n");
-    while (scanf("%d",&n) != 1 );
+    printf("Nhập vào số nguyên n (1 <= n <= 20): \n");
+    while (scanf("%d",&n) != 1 || n >20 || n <= 0) {
+        printf("Giá trị bạn nhập vào không hợp lệ. Vui lòng nhập lại:\n");
+        while (getchar() != '\n');
+    }
+    long long tich = 1;
+    for (int i = 1; i <= n; i++) {
+        tich *= i;
+    }
+    printf("Tich cua cac so tu 1 den %d la: %lld", n, tich);
     return 0;
 }
