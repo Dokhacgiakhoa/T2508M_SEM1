@@ -40,19 +40,28 @@ void inputadv() {
     }
 }
 
+void chararray() {
+    char name[10];
+    printf("Nhập tên: \n");
+    for (int i = 0; i < 10; i++) {
+        scanf(" %c", &name[i]);
+    }
+    for (int i = 0; i < 10; i++) {
+        printf("%c", i, name[i]);
+    }
+}
 int main () {
 #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 #endif
 
-    // showarray();
-    // inputarray();
     while (1) {
         int choice;
         printf("1. Gọi hàm Showarray. \n");
         printf("2. Gọi hàm Inputarray. \n");
         printf("3. Gọi hàm Inputadv.\n");
+        printf("4. Gọi hàm Chararray.\n");
         printf("Nhập vào lựa chọn của bạn: \n");
         scanf("%d", &choice);
         switch (choice) {
@@ -64,6 +73,9 @@ int main () {
                 break;
             case 3:
                 inputadv();
+                break;
+            case 4:
+                chararray();
                 break;
             default:
                 return 0;
