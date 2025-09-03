@@ -25,14 +25,15 @@ int main() {
         }
         if (flag == 0) break;
     }
+    printf("Số %s có %d chữ số.\n", a, strlen(a));
     // giản lược a nếu nhập số 0 ở đầu
     int n = strlen(a), i = 0;
-    while (a[i] == '0') i++;
+    while (a[i] == '0') {i++;}
     for (int j = 0; j < n-i; j++) {
         a[j] = a[j + i];
-        a[j + i] = '0';
     }
     n -= i;
+    printf("Số giản lệ: %s\n", a);
     // Đảo ngược số
     printf("Số đảo ngược là: ");
     int count = 0;
