@@ -41,13 +41,14 @@ void inputadv() {
 }
 
 void chararray() {
-    char name[10];
+    int n=0;
+    char name[150];
     printf("Nhập tên: \n");
-    for (int i = 0; i < 10; i++) {
-        scanf(" %c", &name[i]);
-    }
-    for (int i = 0; i < 10; i++) {
-        printf("%c", i, name[i]);
+    while (scanf("%c", &name[n]) == 1 && name[n] != '\n') n++;
+    name[n] = '\0';
+    printf("Số ký tự trong tên: %d\n", n);
+    for (int i = 0; i < n; i++) {
+        printf("%c", name[i]);
     }
 }
 int main () {
@@ -58,7 +59,7 @@ int main () {
 
     while (1) {
         int choice;
-        printf("1. Gọi hàm Showarray. \n");
+        printf("\n1. Gọi hàm Showarray. \n");
         printf("2. Gọi hàm Inputarray. \n");
         printf("3. Gọi hàm Inputadv.\n");
         printf("4. Gọi hàm Chararray.\n");
