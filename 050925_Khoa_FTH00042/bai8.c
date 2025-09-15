@@ -35,5 +35,8 @@ int main() {
     minmax(a, n, &minv, &maxv);
     printf("Min: %d\n", minv);
     printf("Max: %d\n", maxv);
+    int var = 10;
+    printf("%d\n", var);
+    printf("%p\n", &var);
     return 0;
 }
