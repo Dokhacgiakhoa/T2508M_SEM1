@@ -1,4 +1,4 @@
-/*1. Giá trị tuyệt đối 
+/* 1. Giá trị tuyệt đối 
 Viết hàm tı́nh giá trị tuyệt đối của một số nguyên.	
 Prototype: int abs_i(int x); */
 #include <stdio.h>

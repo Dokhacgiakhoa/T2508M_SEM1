@@ -1,4 +1,4 @@
-/* Giai thừa 
+/* 5. Giai thừa 
 Tı́nh n! với n >= 0.	
 Prototype: long long fact_iter(int n); */
 #include <stdio.h>

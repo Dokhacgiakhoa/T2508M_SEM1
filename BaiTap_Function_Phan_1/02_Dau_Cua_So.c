@@ -1,4 +1,4 @@
-/* Dấu của số 
+/* 2. Dấu của số 
 Trả về -1 nếu số âm, 0 nếu bằng 0, 1 nếu dương.	
 Prototype: int sign_i(int x); */
 #include <stdio.h>

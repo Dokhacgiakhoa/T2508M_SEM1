@@ -7,6 +7,15 @@ Prototype: int is_palindrome_num(long long x); */
 #include <windows.h>
 #endif
 
+long long reverse_ll(long long x) {
+    long long result = 0;
+    while (x != 0) {
+        result = result * 10 + x % 10;
+        x /= 10;
+    }
+    return result;
+}
+
 int is_palindrome_num(long long x) {
     long long reversed = reverse_ll(x);
     return x == reversed;

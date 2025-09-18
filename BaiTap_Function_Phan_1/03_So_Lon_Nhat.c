@@ -1,4 +1,4 @@
-/* Số lớn nhất của hai số 
+/* 3. Số lớn nhất của hai số 
 Vie$t hàm trả về số lớn hơn trong hai so nguyên a và b.	
 Prototype: int max2(int a, int b); */
 #include <stdio.h>

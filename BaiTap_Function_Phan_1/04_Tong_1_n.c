@@ -1,4 +1,4 @@
-/* Tổng 1..n 
+/* 4. Tổng 1..n 
 Tı́nh toPng các so$từ 1 đe$n n.	
 Prototype: long long sum_to_n(int n); */
 #include <stdio.h>

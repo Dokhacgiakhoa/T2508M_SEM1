@@ -1,4 +1,4 @@
-/* Tổng chữ số 
+/* 8. Tổng chữ số 
 Tı́nh toPng các chữ số của một số nguyên.	
 Prototype: int sum_digits(long long n); */
 #include <stdio.h>

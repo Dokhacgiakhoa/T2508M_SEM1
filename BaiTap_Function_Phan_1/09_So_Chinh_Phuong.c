@@ -1,4 +1,4 @@
-/* Kiểm tra số chính phương 
+/* 9. Kiểm tra số chính phương 
 Kiểm tra n có phải số chı́nh phương.	
 Prototype: int is_perfect_square(int n); */
 #include <stdio.h>

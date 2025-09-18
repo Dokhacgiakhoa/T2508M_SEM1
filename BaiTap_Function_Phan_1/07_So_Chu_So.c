@@ -1,4 +1,4 @@
-/* Số chữ số 
+/* 7. Số chữ số 
 Đếm số chữ số của một số nguyên.	
 Prototype: int digit_count(long long n); */
 

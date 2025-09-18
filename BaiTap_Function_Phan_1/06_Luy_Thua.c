@@ -1,4 +1,4 @@
-/* Lũy thừa 
+/* 6. Lũy thừa 
 Tı́nh a^b với b >= 0.	
 Prototype: long long pow_int(int a, int b); */
 #include <stdio.h>
